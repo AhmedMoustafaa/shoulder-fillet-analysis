@@ -45,12 +45,3 @@ plt.grid()
 plt.legend()
 plt.savefig('plot')
 plt.show()
-
-
-
-
-
-#calculating error
-#error% = (expected value - actual value)/(100*actual value)
-error = sum((yth1 - y)/(100*y))/len(x1)
-print(f"Error = {error}%.\n")
